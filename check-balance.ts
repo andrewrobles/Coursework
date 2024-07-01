@@ -1,6 +1,10 @@
+import "dotenv/config"
+import { getKeypairFromEnvironment } from "@solana-developers/helpers";
 import { Connection, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
 
-const publicKey = new PublicKey("P9tdssWRVWSXrLPLn4vtMreCAVsQ93Wccyuz5a3agWd");
+const keypairFromEnvironment = getKeypairFromEnvironment("SECRET_KEY")
+
+const publicKey = new PublicKey(keypairFromEnvironment.publicKey.toBase58());
 
 const connection = new Connection("http://127.0.0.1:8899", "confirmed");
 
