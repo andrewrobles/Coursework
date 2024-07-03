@@ -1,1 +1,1 @@
-Rewrite README to include resulting console output
+Create script for solana airdrop 1 <PUBLIC_KEY>

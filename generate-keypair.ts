@@ -30,5 +30,6 @@ const secretKeyString = keypair.secretKey.toString();
 fs.appendFileSync(envFilePath, `${variableName}=[${secretKeyString}]\n`);
 
 console.log(`The public key is: `, keypair.publicKey.toBase58());
+console.log(`The secret key is: `, keypair.secretKey);
 console.log(`The secret key has been appended to the .env file as ${variableName}`);
 console.log(`✅ Finished!`);
