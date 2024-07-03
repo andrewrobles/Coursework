@@ -1,7 +1,7 @@
 ### Cryptography and the Solana Network 
 Generate a keypair
 ```
-npx esrun generate-keypair.ts
+npm run generate-keypair
 ```
 Add the keys to .env
 ```
@@ -9,16 +9,17 @@ SECRET_KEY="[(<number-array>)]"
 ```
 Load the keypair
 ```
-npx esrun load-keypair.ts
+npm run load-keypair
 ```
 ### Read Data From The Solana Network
-Start local Solana cluster from home directory
+From a different terminal, start local Solana cluster
 ```
+cd
 solana-test-validator
 ```
 Verify balance is 0 
 ```
-npx esrun check-balance.ts
+npm run check-balance
 ```
 Request Solana to public key
 ```
@@ -26,5 +27,5 @@ solana airdrop <public-key>
 ```
 Verify balance is 100
 ```
-npx esrun check-balance.ts
+npm run check-balance
 ```
