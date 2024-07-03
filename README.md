@@ -1,4 +1,4 @@
-### Cryptography and the Solana Network 
+### Usage 
 Generate a keypair
 ```
 npm run generate-keypair
@@ -11,13 +11,12 @@ Load the keypair
 ```
 npm run load-keypair
 ```
-### Read Data From The Solana Network
 From a different terminal, start local Solana cluster
 ```
 cd
 solana-test-validator
 ```
-Verify balance is 0 
+See initial balance
 ```
 npm run check-balance
 ```

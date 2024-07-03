@@ -2,7 +2,14 @@ import "dotenv/config"
 import { getKeypairFromEnvironment } from "@solana-developers/helpers";
 import { Connection, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
 
-const keypairFromEnvironment = getKeypairFromEnvironment("SECRET_KEY")
+// Check if a variable name was provided as a command line argument
+const variableName = process.argv[2];
+if (!variableName) {
+  console.error("Please provide a variable name as a command line argument.");
+  process.exit(1);
+}
+
+const keypairFromEnvironment = getKeypairFromEnvironment(variableName)
 
 const publicKey = new PublicKey(keypairFromEnvironment.publicKey.toBase58());
 

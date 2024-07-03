@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate-keypair": "npx esrun generate-keypair.ts $1",
-    "load-keypair": "npx esrun load-keypair.ts",
+    "load-keypair": "npx esrun load-keypair.ts $1",
     "check-balance": "npx esrun check-balance.ts"
   },
   "keywords": [],

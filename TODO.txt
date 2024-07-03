@@ -1,1 +1,1 @@
-Pass environment variable name when loading keypair
+Rewrite README to include resulting console output
