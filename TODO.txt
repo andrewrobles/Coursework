@@ -1,1 +1,0 @@
-Create script for solana airdrop 1 <PUBLIC_KEY>
