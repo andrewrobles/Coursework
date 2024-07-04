@@ -8,7 +8,7 @@ import {
   Connection
 } from "@solana/web3.js";
 
-const sourceAccountName = process.argv[2];
+const sourceAccountName = process.argv[3];
 if (!sourceAccountName) {
   console.error("Please provide an account name to send from");
   process.exit(1);
@@ -16,7 +16,7 @@ if (!sourceAccountName) {
 
 const sourceKeypairFromEnvironment = getKeypairFromEnvironment(sourceAccountName)
 
-const destinationAccountName = process.argv[3];
+const destinationAccountName = process.argv[4];
 if (!destinationAccountName) {
   console.error("Please provide an account name to send to");
   process.exit(1);
@@ -39,7 +39,7 @@ const transaction = new Transaction();
 
 const connection = new Connection("http://127.0.0.1:8899", "confirmed");
 
-const solanaAmount = process.argv[4];
+const solanaAmount = process.argv[2];
 if (!solanaAmount) {
   console.error("Please provide amount of Solana to send");
   process.exit(1);
