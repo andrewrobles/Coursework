@@ -1,0 +1,5 @@
+Clean up transfer.ts output
+Create tokens with the token program
+Create Solana NFTs with Metaplex
+Using custom onchain programs
+Interact with wallets
