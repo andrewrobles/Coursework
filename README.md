@@ -29,9 +29,13 @@ Run `npm run check-balance account_1` to see initial account balance. You should
 ```
 💰 Finished! The balance for the wallet at address 98imjLHYmbnTMCDXUtawBmkZYx55MKiHz9KJgKyGY9rC is 0!
 ```
-Send tokens to public key
+Send tokens to public key by running `npm run airdrop 1 account_1`. You should see the text:
 ```
-solana airdrop 1 <PUBLIC_KEY>
+Requesting airdrop of 1 SOL
+
+Signature: S4CQAk4fM96GoAbQCQdtX1toqJfud2vKcxcbFhLfc6Jot8RTyHuQBg36cyomm6rW15ZRM2XcDDA38cVN5LrRfC8
+
+1 SOL
 ```
 Verify balance by running `npm run check-balance account_1`. You should see the text:
 ```
