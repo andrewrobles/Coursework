@@ -1,3 +1,0 @@
-Complete "Create Transactions on the Solana Network"
-
-Investigate "DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead."
