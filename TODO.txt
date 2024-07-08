@@ -1,4 +1,1 @@
-Create tokens with the token program
-Create Solana NFTs with Metaplex
-Using custom onchain programs
-Interact with wallets
+Get lab to work with devnet as it appears to be working now
