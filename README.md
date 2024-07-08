@@ -1,3 +1,5 @@
+# Solana Development Course
+
 ### Create and load keypairs 
 Run `node generate-keypair.js account_1` to generate a keypair for an account called **account_1**. You should see the text:
 ```
