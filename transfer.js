@@ -1,11 +1,11 @@
 import "dotenv/config"
 import { getKeypairFromEnvironment } from "@solana-developers/helpers";
 import { 
-  PublicKey,
   Transaction,
   SystemProgram,
   sendAndConfirmTransaction,
-  Connection
+  Connection,
+  clusterApiUrl
 } from "@solana/web3.js";
 
 const sourceAccountName = process.argv[3];
@@ -37,7 +37,7 @@ console.log(
 
 const transaction = new Transaction();
 
-const connection = new Connection("http://127.0.0.1:8899", "confirmed");
+const connection = new Connection(clusterApiUrl('devnet'))
 
 const solanaAmount = process.argv[2];
 if (!solanaAmount) {

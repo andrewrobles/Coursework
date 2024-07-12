@@ -1,6 +1,6 @@
 import "dotenv/config"
 import { getKeypairFromEnvironment } from "@solana-developers/helpers";
-import { Connection, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
+import { Connection, LAMPORTS_PER_SOL, PublicKey, clusterApiUrl } from "@solana/web3.js";
 
 // Check if a variable name was provided as a command line argument
 const variableName = process.argv[2];
@@ -13,7 +13,7 @@ const keypairFromEnvironment = getKeypairFromEnvironment(variableName)
 
 const publicKey = new PublicKey(keypairFromEnvironment.publicKey.toBase58());
 
-const connection = new Connection("http://127.0.0.1:8899", "confirmed");
+const connection = new Connection(clusterApiUrl("devnet"));
 
 const balanceInLamports = await connection.getBalance(publicKey);
 

@@ -24,26 +24,13 @@ The secret key is:  Uint8Array(64) [
 ```
 
 ### Connect to Solana and check account balances
-From a different terminal, start local Solana cluster
-```bash
-% cd
-% solana-test-validator
-```
 Run `node check-balance.js account_1` to see initial account balance. You should see the text:
 ```
 💰 Finished! The balance for the wallet at address 98imjLHYmbnTMCDXUtawBmkZYx55MKiHz9KJgKyGY9rC is 0!
 ```
-Send tokens to public key by running `node airdrop.js 5 account_1`. You should see the text:
+Send 5 tokens to public key by using https://faucet.solana.com then verify balance by running `node check-balance.js account_1`. You should see the text:
 ```
-Requesting airdrop of 5 SOL
-
-Signature: S4CQAk4fM96GoAbQCQdtX1toqJfud2vKcxcbFhLfc6Jot8RTyHuQBg36cyomm6rW15ZRM2XcDDA38cVN5LrRfC8
-
-5 SOL
-```
-Verify balance by running `node check-balance.js account_1`. You should see the text:
-```
-💰 Finished! The balance for the wallet at address DU9ad2b9iSEuzWd8eNjqKkSVj7TN7DARYyHuuWJdwrgm is 1!
+💰 Finished! The balance for the wallet at address DU9ad2b9iSEuzWd8eNjqKkSVj7TN7DARYyHuuWJdwrgm is 5!
 ```
 
 ### Make transactions
