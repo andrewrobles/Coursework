@@ -2,9 +2,6 @@
 
 ### [Solana Development](https://www.soldev.app/course)
 
-*Introduction*
-- [x] [Get Started](https://www.soldev.app/course/getting-started)
-
 *Introduction to cryptography and Solana clients*
 - [x] [Cryptography Fundamentals](https://www.soldev.app/course/intro-to-cryptography)
 - [x] [Read data from the network](https://www.soldev.app/course/intro-to-reading-data)
@@ -14,7 +11,17 @@
 - [ ] [Using Custom Onchain Programs](https://www.soldev.app/course/intro-to-custom-on-chain-programs)
 - [ ] [Interact With Wallets](https://www.soldev.app/course/interact-with-wallets)
 
-### [iOS Development](https://developer.apple.com/tutorials/app-dev-training)
+### [SwiftUI](https://developer.apple.com/tutorials/app-dev-training)
+
+*SwiftUI essentials*
+- [ ] [Getting Started with Scrumdinger](https://developer.apple.com/tutorials/app-dev-training/getting-started-with-scrumdinger)
+- [ ] [Using stacks to arrange views](https://developer.apple.com/tutorials/app-dev-training/using-stacks-to-arrange-views)
 
 
 ### [Rust Language](https://rust-book.cs.brown.edu/)
+
+*Getting Started*
+- [ ] [Installation](https://rust-book.cs.brown.edu/ch01-01-installation.html)
+- [ ] [Hello, World!](https://rust-book.cs.brown.edu/ch01-02-hello-world.html)
+- [ ] [Hello, Cargo!](https://rust-book.cs.brown.edu/ch01-03-hello-cargo.html)
+- [ ] [Programming a Guessing Game](https://rust-book.cs.brown.edu/ch02-00-guessing-game-tutorial.html)
