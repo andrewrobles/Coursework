@@ -1,6 +1,6 @@
 # Personal Lesson Plan 
 
-### [Solana Development](https://www.soldev.app/course)
+### [Solana](https://www.soldev.app/course)
 
 *Introduction to cryptography and Solana clients*
 - [x] [Cryptography Fundamentals](https://www.soldev.app/course/intro-to-cryptography)
@@ -18,7 +18,7 @@
 - [ ] [Using stacks to arrange views](https://developer.apple.com/tutorials/app-dev-training/using-stacks-to-arrange-views)
 
 
-### [Rust Language](https://rust-book.cs.brown.edu/)
+### [Rust](https://rust-book.cs.brown.edu/)
 
 *Getting Started*
 - [ ] [Installation](https://rust-book.cs.brown.edu/ch01-01-installation.html)
