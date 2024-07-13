@@ -18,10 +18,16 @@
 - [ ] [Using stacks to arrange views](https://developer.apple.com/tutorials/app-dev-training/using-stacks-to-arrange-views)
 
 
-### [Rust](https://rust-book.cs.brown.edu/)
+### [Rust](https://rust-book.cs.brown.edu)
 
 *Getting Started*
 - [ ] [Installation](https://rust-book.cs.brown.edu/ch01-01-installation.html)
 - [ ] [Hello, World!](https://rust-book.cs.brown.edu/ch01-02-hello-world.html)
 - [ ] [Hello, Cargo!](https://rust-book.cs.brown.edu/ch01-03-hello-cargo.html)
 - [ ] [Programming a Guessing Game](https://rust-book.cs.brown.edu/ch02-00-guessing-game-tutorial.html)
+
+### [Next.js](https://nextjs.org/learn)
+
+- [ ] [Introduction](https://nextjs.org/learn/dashboard-app)
+- [ ] [Getting Started](https://nextjs.org/learn/dashboard-app/getting-started)
+- [ ] [CSS Stying](https://nextjs.org/learn/dashboard-app/css-styling)
