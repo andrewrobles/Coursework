@@ -1,4 +1,4 @@
-# Personal Lesson Plan 
+# Coursewerk Syllabus
 
 ### [Solana](https://www.soldev.app/course)
 
