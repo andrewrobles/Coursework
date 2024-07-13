@@ -31,3 +31,9 @@
 - [ ] [Introduction](https://nextjs.org/learn/dashboard-app)
 - [ ] [Getting Started](https://nextjs.org/learn/dashboard-app/getting-started)
 - [ ] [CSS Stying](https://nextjs.org/learn/dashboard-app/css-styling)
+
+### [TypeScript](https://www.typescriptlang.org/docs/handbook)
+
+- [ ] [TypeScript for JavaScript Programmers](https://www.typescriptlang.org/docs/handbook/intro.html)
+- [ ] [The Basics](https://www.typescriptlang.org/docs/handbook/2/basic-types.html)
+- [ ] [Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
