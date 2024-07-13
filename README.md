@@ -1,5 +1,3 @@
-# Coursewerk Syllabus
-
 ### [Solana](https://www.soldev.app/course)
 
 *Introduction to cryptography and Solana clients*
