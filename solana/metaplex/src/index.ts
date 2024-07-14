@@ -60,6 +60,12 @@ async function main() {
 
     // create an NFT using the helper function and the URI from the metadata
     const nft = await createNft(metaplex, uri, nftData)
+
+    // upload updated NFT data and get the new URI for the metadata
+    const updatedUri = await uploadMetadata(metaplex, updateNftData)
+
+    // update the NFT using the helper function and the new URI from the metadata
+    await updateNftUri(metaplex, updatedUri, nft.address)
 }
 
 // helper function to upload image and metadata
@@ -111,6 +117,33 @@ async function createNft(
   );
 
   return nft;
+}
+
+// helper function update NFT
+async function updateNftUri(
+  metaplex: Metaplex,
+  uri: string,
+  mintAddress: PublicKey,
+) {
+  // fetch NFT data using mint address
+  const nft = await metaplex.nfts().findByMint({ mintAddress });
+
+  // update the NFT metadata
+  const { response } = await metaplex.nfts().update(
+    {
+      nftOrSft: nft,
+      uri: uri,
+    },
+    { commitment: "finalized" },
+  );
+
+  console.log(
+    `Token Mint: https://explorer.solana.com/address/${nft.address.toString()}?cluster=devnet`,
+  );
+
+  console.log(
+    `Transaction: https://explorer.solana.com/tx/${response.signature}?cluster=devnet`,
+  );
 }
 
 main()
