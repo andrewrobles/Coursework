@@ -1,6 +1,5 @@
 # How to
 
-Topics:
 - [NextJS](/next-js/README.md)
 - [Rust](/rust/README.md)
 - [Solana](/solana/README.md)
