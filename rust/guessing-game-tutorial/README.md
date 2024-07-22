@@ -1,0 +1,3 @@
+- The **prelude** is the set of items of items defined in the standard library that it brings into the scope of every program.
+- An **associated function** is a function that's implemented on a type.
+- An **enumeration**, often called an **enum**, is a type that can be in one of multiple possible states, in which a state is called a **variant**.
