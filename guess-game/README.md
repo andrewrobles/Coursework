@@ -20,3 +20,7 @@ io::stdin()
 If we hadn’t imported the io library with use `std::io;` at the beginning of the program, we could still use the function by writing this function call as `std::io::stdin`. The `stdin `function returns an instance of `std::io::Stdin`, which is a type that represents a handle to the standard input for your terminal.
 
 Next, the line `.read_line(&mut guess)` calls the `read_line` method on the standard input handle to get input from the user. `read_line` appends user input to a string and returns an *enumeration* called Result. An **enumeration**, often called an enum, is a type that can be in one of multiple possible states, in which a state is called a variant. `&mut` guess was used instead of `&guess` because references are immutable by default.
+
+What are the variants of `Result` and what information is contained within each?
+What type does `Expect` belong to, how does it handle each variant, and what happens if you do not call this method?
+How do you print the values of variables and expressions using `println!`?
