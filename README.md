@@ -1,6 +1,6 @@
 <img width="150" alt="rust-lang-book" src="https://nostarch.com/sites/default/files/styles/uc_product/public/RustProgramming2ndEd_comp.png?itok=a48bXfhn">
 
-# Not Rust Programming Language Book
+# The Rust Programming Language
 
 1. ~Getting Started~
    - [x] 1.1. Installation
